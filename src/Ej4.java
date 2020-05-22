@@ -2,7 +2,7 @@ import java.sql.*;
 import java.util.Scanner;
 
 public class Ej4 {
-
+//modicficacion en el ejercicio para guthub
 public static void main(String args[]) {
         
 		Scanner sc = new Scanner(System.in);
@@ -11,7 +11,7 @@ public static void main(String args[]) {
         try {
 			  Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/colegio", "root", "" );
 			  Statement st = con.createStatement();
-			  System.out.println("Conexión establecida con éxito");
+			  System.out.println("ConexiÃ³n establecida con Ã©xito");
 			  
 			  System.out.println("Introduce el id del alumno");
 			  int id = sc.nextInt();
