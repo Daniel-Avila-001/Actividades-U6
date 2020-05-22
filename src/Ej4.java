@@ -6,7 +6,7 @@ public class Ej4 {
 public static void main(String args[]) {
         
 		Scanner sc = new Scanner(System.in);
-
+//modificacion 2 para github ejercicio5
 		
         try {
 			  Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/colegio", "root", "" );
